@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        .para1::first-line{
+            color: red;
+        }
+        .para1::first-letter{
+            color: blue;
+            font-size: 55px;
+        }
+        .para1::after{
+            content: url(images/unicef.png);
+        }
+        .para1::before{
+            content: "paragraf oncesi";
+        }
+
+    </style>
+</head>
+
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reiciendis numquam labore totam
+        necessitatibus cumque reprehenderit error eum, tempora, repellat aspernatur, earum ad fuga odio! Veniam sint
+        porro voluptas neque, corrupti assumenda aliquam expedita, natus nesciunt odio, consectetur ea quo! Ut, odio
+        tempore. Voluptas labore totam impedit ducimus ipsa dolorum harum, doloremque earum hic sunt quasi enim.
+        Dolores, tempora? Nostrum temporibus distinctio tenetur voluptatem deserunt qui natus nam, a ut quos cupiditate
+        eaque voluptas dolorem modi illo. Earum, repellat quasi veritatis obcaecati nam maxime saepe! Impedit provident
+        blanditiis laborum, ex, animi accusantium est sunt saepe sequi quas aspernatur asperiores temporibus.</p>
+</body>
+
+</html>
